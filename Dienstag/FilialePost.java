@@ -8,8 +8,8 @@ public class FilialePost {
     String filialname;
 
 
-    public FilialePost(int maxanzahlPakete, String name) {
-        this.filialname=name;
+    public FilialePost(int maxanzahlPakete, String filialname) {
+        this.filialname=filialname;
         pakete=new Paket[maxanzahlPakete];
         anzahlPakete=0;
         System.out.println("Pakete Array: "+ Arrays.toString(pakete));
